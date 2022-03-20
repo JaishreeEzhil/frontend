@@ -1,0 +1,28 @@
+.cardBalanceContainer {
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 112px;
+    background: #000000;
+    border: 1px solid #FFF48C;
+    box-sizing: border-box;
+}
+
+.cardBalanceTitle{
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cardBalanceSubTitle{
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}

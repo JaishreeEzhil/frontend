@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+
+.dealBtnContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.dealBtn{
+    height: 103px;
+    width: 309px;
+    border-radius: 14px;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    color: #000000;
+    background: #EFCE4B;
+    cursor: pointer;
+}
+
+.btnCenter{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btnRight{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.btn{
+    border: 3px solid #EFCE4B;
+    box-sizing: border-box;
+    border-radius: 14px;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #EFCE4B;
+    padding: 5px 25px;
+    cursor: pointer;
+    background: transparent;
+}
