@@ -13,7 +13,7 @@ const Hand: React.FC<HandProps> = ({ cards }) => {
       <div className={styles.cardContainer}>
         {cards.map((card: any, index: number) => {
           return (
-            <Card key={index} value={card.value} suit={card.suit} hidden={card.hidden} cardIndex={cards.length > 2 ? index : 2}/>
+            <Card key={index} value={card.value} suit={card.suit} hidden={card.hidden} cardIndex={cards.length > 2 ? index : "2"}/>
           );
         })}
       </div>
