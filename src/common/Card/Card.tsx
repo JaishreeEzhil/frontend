@@ -9,7 +9,7 @@ type CardProps = {
   value: string;
   suit: string;
   hidden: boolean;
-  cardIndex: string;
+  cardIndex: number;
 };
 
 const Card: React.FC<CardProps> = ({ value, suit, hidden, cardIndex }) => {
